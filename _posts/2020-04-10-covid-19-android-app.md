@@ -37,6 +37,7 @@ title: Covid-19 tracker android app for India with live notification
 ## Download link
 
 ![](https://drive.google.com/file/d/1O4defw6-g82FLZ-idjg2mMWGBlH-M089/view?usp=sharing "APK file")
+[APK file](https://drive.google.com/file/d/1O4defw6-g82FLZ-idjg2mMWGBlH-M089/view?usp=sharing)
 
 
 {% twitter https://twitter.com/nbrsr/status/1248603174442680322 %}
