@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>FMRIprep output on BIDS format of ADNI data | Nabarun’s Blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="FMRIprep output on BIDS format of ADNI data" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="FMRIprep output on BIDS format of ADNI data" />
+<meta property="og:description" content="FMRIprep output on BIDS format of ADNI data" />
+<link rel="canonical" href="https://nabaruns.github.io/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html" />
+<meta property="og:url" content="https://nabaruns.github.io/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html" />
+<meta property="og:site_name" content="Nabarun’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-10-14T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"FMRIprep output on BIDS format of ADNI data","description":"FMRIprep output on BIDS format of ADNI data","datePublished":"2020-10-14T00:00:00-05:00","dateModified":"2020-10-14T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://nabaruns.github.io/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html"},"url":"https://nabaruns.github.io/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://nabaruns.github.io/blog/feed.xml" title="Nabarun's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>FMRIprep output on BIDS format of ADNI data | Nabarun’s Blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="FMRIprep output on BIDS format of ADNI data" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="FMRIprep output on BIDS format of ADNI data" />
+<meta property="og:description" content="FMRIprep output on BIDS format of ADNI data" />
+<link rel="canonical" href="https://nabaruns.github.io/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html" />
+<meta property="og:url" content="https://nabaruns.github.io/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html" />
+<meta property="og:site_name" content="Nabarun’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-10-14T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"FMRIprep output on BIDS format of ADNI data","description":"FMRIprep output on BIDS format of ADNI data","datePublished":"2020-10-14T00:00:00-05:00","dateModified":"2020-10-14T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://nabaruns.github.io/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html"},"url":"https://nabaruns.github.io/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://nabaruns.github.io/blog/feed.xml" title="Nabarun's Blog" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Nabarun&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">FMRIprep output on BIDS format of ADNI data</h1><p class="page-description">FMRIprep output on BIDS format of ADNI data</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-10-14T00:00:00-05:00" itemprop="datePublished">
+        Oct 14, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+</ul><ol>
+
+<li style="font-size:1.5rem;"><a href="sr%20no%20239/sub-01.html">027_S_6463</a></li>
+<hr>
+<p><b>Age:</b> 83.2 <b>Gender:</b> M <b>Weight:</b> 69.0 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2018-07-26 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Accelerated_Sagittal_IR-FSPGR', 'Axial_rsfMRI__Eyes_Open_'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20185/sub-01.html">135_S_4489</a></li>
+<hr>
+<p><b>Age:</b> 81.6 <b>Gender:</b> M <b>Weight:</b> 86.2 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2019-05-29 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Accelerated_Sag_IR-FSPGR', 'Axial_fcMRI__Eyes_Open_'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20420/sub-01.html">031_S_4590</a></li>
+<hr>
+<p><b>Age:</b> 60.8 <b>Gender:</b> F <b>Weight:</b> 64.0 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2012-10-01 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['MPRAGE', 'Resting_State_fMRI'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%2060/sub-01.html">022_S_5004</a></li>
+<hr>
+<p><b>Age:</b> 72.0 <b>Gender:</b> M <b>Weight:</b> 85.2 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2020-03-11 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_rsfMRI__EYES_OPEN_', 'Accelerated_Sagittal_MPRAGE'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20581/sub-01.html">052_S_1352</a></li>
+<hr>
+<p><b>Age:</b> 97.4 <b>Gender:</b> M <b>Weight:</b> 84.4 <b>Cohort:</b> MCI_multi</p>
+<p><b>Scan Date:</b> 2018-09-13 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_MB_rsfMRI__Eyes_Open_', 'Accelerated_Sagittal_MPRAGE'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20276/sub-01.html">100_S_0296</a></li>
+<hr>
+<p><b>Age:</b> 90.1 <b>Gender:</b> M <b>Weight:</b> 65.8 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2017-01-24 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Extended_Resting_State_fMRI', 'MPRAGE'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20523/sub-01.html">301_S_6615</a></li>
+<hr>
+<p><b>Age:</b> 76.5 <b>Gender:</b> F <b>Weight:</b> 82.0 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2018-10-24 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Sagittal_3D_Accelerated_MPRAGE', 'Axial_fcMRI__EYES_OPEN_'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%2030/sub-01.html">012_S_4987</a></li>
+<hr>
+<p><b>Age:</b> 70.0 <b>Gender:</b> M <b>Weight:</b> 97.1 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2013-05-13 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['MPRAGE', 'Resting_State_fMRI'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20599/sub-01.html">002_S_4746</a></li>
+<hr>
+<p><b>Age:</b> 72.3 <b>Gender:</b> F <b>Weight:</b> 56.2 <b>Cohort:</b> MCI_multi</p>
+<p><b>Scan Date:</b> 2013-06-03 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['MPRAGE', 'Resting_State_fMRI'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20566/sub-01.html">094_S_4434</a></li>
+<hr>
+<p><b>Age:</b> 70.7 <b>Gender:</b> M <b>Weight:</b> 85.9 <b>Cohort:</b> MCI_multi</p>
+<p><b>Scan Date:</b> 2016-02-04 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Extended_AXIAL_rsfMRI_EYES_OPEN', 'Accelerated_SAG_IR-SPGR'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%2090/sub-01.html">128_S_2220</a></li>
+<hr>
+<p><b>Age:</b> 90.6 <b>Gender:</b> M <b>Weight:</b> 83.9 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2019-07-12 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Accelerated_Sag_IR-FSPGR', 'Axial_fcMRI__Eyes_Open_'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20390/sub-01.html">128_S_4742</a></li>
+<hr>
+<p><b>Age:</b> 77.9 <b>Gender:</b> F <b>Weight:</b> 54.4 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2019-08-29 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_MB_rsfMRI__Eyes_Open_', 'Accelerated_Sagittal_MPRAGE'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20158/sub-01.html">037_S_4302</a></li>
+<hr>
+<p><b>Age:</b> 81.3 <b>Gender:</b> M <b>Weight:</b> 78.0 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2017-01-25 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Axial_rsfMRI__Eyes_Open_', 'Field_Mapping', 'Accelerated_Sagittal_MPRAGE'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20210/sub-01.html">006_S_6677</a></li>
+<hr>
+<p><b>Age:</b> 78.7 <b>Gender:</b> M <b>Weight:</b> 89.0 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2019-02-14 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Sagittal_3D_Accelerated_MPRAGE', 'Axial_fcMRI__EYES_OPEN_'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20128/sub-01.html">002_S_4229</a></li>
+<hr>
+<p><b>Age:</b> 74.5 <b>Gender:</b> M <b>Weight:</b> 81.6 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2019-11-13 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_MB_rsfMRI__Eyes_Open_', 'Accelerated_Sagittal_MPRAGE'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20480/sub-01.html">067_S_6529</a></li>
+<hr>
+<p><b>Age:</b> 61.7 <b>Gender:</b> F <b>Weight:</b> 54.4 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2020-01-17 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_MB_rsfMRI__Eyes_Open_', 'Accelerated_Sagittal_MPRAGE'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20361/sub-01.html">024_S_2239</a></li>
+<hr>
+<p><b>Age:</b> 80.9 <b>Gender:</b> F <b>Weight:</b> 110.7 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2018-03-20 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Field_Mapping_Phase_Direction_P_A', 'Axial_rsfMRI__Eyes_Open__Phase_Direction_P_A', 'Accelerated_Sagittal_MPRAGE'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20300/sub-01.html">135_S_6586</a></li>
+<hr>
+<p><b>Age:</b> 79.6 <b>Gender:</b> M <b>Weight:</b> 85.3 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2019-10-25 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Accelerated_Sag_IR-FSPGR', 'Axial_fcMRI__Eyes_Open_'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20506/sub-01.html">135_S_6703</a></li>
+<hr>
+<p><b>Age:</b> 62.7 <b>Gender:</b> F <b>Weight:</b> 64.4 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2019-03-26 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Accelerated_Sag_IR-FSPGR', 'Axial_fcMRI__Eyes_Open_'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20330/sub-01.html">002_S_4237</a></li>
+<hr>
+<p><b>Age:</b> 81.6 <b>Gender:</b> F <b>Weight:</b> 61.2 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2012-05-03 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['MPRAGE', 'Resting_State_fMRI'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+<li style="font-size:1.5rem;"><a href="sr%20no%20449/sub-01.html">005_S_6427</a></li>
+<hr>
+<p><b>Age:</b> 65.4 <b>Gender:</b> F <b>Weight:</b> 57.2 <b>Cohort:</b> MCI_NC</p>
+<p><b>Scan Date:</b> 2018-06-25 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
+<p><b>Modalities present:</b> ['Accelerated_Sagittal_IR-FSPGR', 'Axial_rsfMRI__Eyes_Open_'] </p>
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+</ol>
+
+  </div><a class="u-url" href="/blog/markdown/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A pebble in ocean of knowledge</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/nabaruns" title="nabaruns"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/nbrsr" title="nbrsr"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
