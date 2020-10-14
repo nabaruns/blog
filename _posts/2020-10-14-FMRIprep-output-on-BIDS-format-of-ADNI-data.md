@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: FMRIprep output on BIDS format of ADNI data
-categories: [markdown]
+categories: [neuroscience]
 title: FMRIprep output on BIDS format of ADNI data
 ---
 
