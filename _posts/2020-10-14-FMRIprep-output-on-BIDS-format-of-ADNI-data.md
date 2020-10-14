@@ -1,3 +1,11 @@
+---
+toc: true
+layout: post
+description: FMRIprep output on BIDS format of ADNI data
+categories: [markdown]
+title: FMRIprep output on BIDS format of ADNI data
+---
+
 <ol>
 
 <li style='font-size:1.5rem;'><a href = 'sr no 239/sub-01.html'>027_S_6463</a></li>
