@@ -28,10 +28,10 @@
 
   
       ,"page1": {
-          "title": "About Me",
+          "title": "Blog Home",
           "content": "Check me out here nabarunsarkar.com .",
-          "url": "https://nabaruns.github.io/blog/https:/nabarunsarkar.com",
-          "relUrl": "/https:/nabarunsarkar.com",
+          "url": "https://nabaruns.github.io/blog/",
+          "relUrl": "/",
           "date": ""
       }
       
