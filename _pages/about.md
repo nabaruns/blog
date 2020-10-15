@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
-permalink: https://nabarunsarkar.com
+title: Blog Home
+permalink: /
 ---
 
 Check me out here **[nabarunsarkar.com](https://nabarunsarkar.com)**
