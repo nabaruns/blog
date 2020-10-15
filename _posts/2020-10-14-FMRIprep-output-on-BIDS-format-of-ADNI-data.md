@@ -5,132 +5,28 @@ description: FMRIprep output on BIDS format of ADNI data
 categories: [neuroscience]
 title: FMRIprep output on BIDS format of ADNI data
 ---
-
-<ol>
-
-<li style='font-size:1.5rem;'><a href = 'sr no 239/sub-01.html'>027_S_6463</a></li>
-<hr>
-<p><b>Age:</b> 83.2 <b>Gender:</b> M <b>Weight:</b> 69.0 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2018-07-26 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Accelerated_Sagittal_IR-FSPGR', 'Axial_rsfMRI__Eyes_Open_'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 185/sub-01.html'>135_S_4489</a></li>
-<hr>
-<p><b>Age:</b> 81.6 <b>Gender:</b> M <b>Weight:</b> 86.2 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2019-05-29 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Accelerated_Sag_IR-FSPGR', 'Axial_fcMRI__Eyes_Open_'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 420/sub-01.html'>031_S_4590</a></li>
-<hr>
-<p><b>Age:</b> 60.8 <b>Gender:</b> F <b>Weight:</b> 64.0 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2012-10-01 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['MPRAGE', 'Resting_State_fMRI'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 60/sub-01.html'>022_S_5004</a></li>
-<hr>
-<p><b>Age:</b> 72.0 <b>Gender:</b> M <b>Weight:</b> 85.2 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2020-03-11 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_rsfMRI__EYES_OPEN_', 'Accelerated_Sagittal_MPRAGE'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 581/sub-01.html'>052_S_1352</a></li>
-<hr>
-<p><b>Age:</b> 97.4 <b>Gender:</b> M <b>Weight:</b> 84.4 <b>Cohort:</b> MCI_multi</p>
-<p><b>Scan Date:</b> 2018-09-13 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_MB_rsfMRI__Eyes_Open_', 'Accelerated_Sagittal_MPRAGE'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 276/sub-01.html'>100_S_0296</a></li>
-<hr>
-<p><b>Age:</b> 90.1 <b>Gender:</b> M <b>Weight:</b> 65.8 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2017-01-24 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Extended_Resting_State_fMRI', 'MPRAGE'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 523/sub-01.html'>301_S_6615</a></li>
-<hr>
-<p><b>Age:</b> 76.5 <b>Gender:</b> F <b>Weight:</b> 82.0 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2018-10-24 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Sagittal_3D_Accelerated_MPRAGE', 'Axial_fcMRI__EYES_OPEN_'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 30/sub-01.html'>012_S_4987</a></li>
-<hr>
-<p><b>Age:</b> 70.0 <b>Gender:</b> M <b>Weight:</b> 97.1 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2013-05-13 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['MPRAGE', 'Resting_State_fMRI'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 599/sub-01.html'>002_S_4746</a></li>
-<hr>
-<p><b>Age:</b> 72.3 <b>Gender:</b> F <b>Weight:</b> 56.2 <b>Cohort:</b> MCI_multi</p>
-<p><b>Scan Date:</b> 2013-06-03 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['MPRAGE', 'Resting_State_fMRI'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 566/sub-01.html'>094_S_4434</a></li>
-<hr>
-<p><b>Age:</b> 70.7 <b>Gender:</b> M <b>Weight:</b> 85.9 <b>Cohort:</b> MCI_multi</p>
-<p><b>Scan Date:</b> 2016-02-04 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Extended_AXIAL_rsfMRI_EYES_OPEN', 'Accelerated_SAG_IR-SPGR'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 90/sub-01.html'>128_S_2220</a></li>
-<hr>
-<p><b>Age:</b> 90.6 <b>Gender:</b> M <b>Weight:</b> 83.9 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2019-07-12 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Accelerated_Sag_IR-FSPGR', 'Axial_fcMRI__Eyes_Open_'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 390/sub-01.html'>128_S_4742</a></li>
-<hr>
-<p><b>Age:</b> 77.9 <b>Gender:</b> F <b>Weight:</b> 54.4 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2019-08-29 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_MB_rsfMRI__Eyes_Open_', 'Accelerated_Sagittal_MPRAGE'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 158/sub-01.html'>037_S_4302</a></li>
-<hr>
-<p><b>Age:</b> 81.3 <b>Gender:</b> M <b>Weight:</b> 78.0 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2017-01-25 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Axial_rsfMRI__Eyes_Open_', 'Field_Mapping', 'Accelerated_Sagittal_MPRAGE'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 210/sub-01.html'>006_S_6677</a></li>
-<hr>
-<p><b>Age:</b> 78.7 <b>Gender:</b> M <b>Weight:</b> 89.0 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2019-02-14 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Sagittal_3D_Accelerated_MPRAGE', 'Axial_fcMRI__EYES_OPEN_'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 128/sub-01.html'>002_S_4229</a></li>
-<hr>
-<p><b>Age:</b> 74.5 <b>Gender:</b> M <b>Weight:</b> 81.6 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2019-11-13 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_MB_rsfMRI__Eyes_Open_', 'Accelerated_Sagittal_MPRAGE'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 480/sub-01.html'>067_S_6529</a></li>
-<hr>
-<p><b>Age:</b> 61.7 <b>Gender:</b> F <b>Weight:</b> 54.4 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2020-01-17 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Field_Mapping', 'Axial_MB_rsfMRI__Eyes_Open_', 'Accelerated_Sagittal_MPRAGE'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 361/sub-01.html'>024_S_2239</a></li>
-<hr>
-<p><b>Age:</b> 80.9 <b>Gender:</b> F <b>Weight:</b> 110.7 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2018-03-20 <b>Imaging Protocol:</b> Manufacturer=SIEMENS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Field_Mapping_Phase_Direction_P_A', 'Axial_rsfMRI__Eyes_Open__Phase_Direction_P_A', 'Accelerated_Sagittal_MPRAGE'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 300/sub-01.html'>135_S_6586</a></li>
-<hr>
-<p><b>Age:</b> 79.6 <b>Gender:</b> M <b>Weight:</b> 85.3 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2019-10-25 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Accelerated_Sag_IR-FSPGR', 'Axial_fcMRI__Eyes_Open_'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 506/sub-01.html'>135_S_6703</a></li>
-<hr>
-<p><b>Age:</b> 62.7 <b>Gender:</b> F <b>Weight:</b> 64.4 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2019-03-26 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Accelerated_Sag_IR-FSPGR', 'Axial_fcMRI__Eyes_Open_'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 330/sub-01.html'>002_S_4237</a></li>
-<hr>
-<p><b>Age:</b> 81.6 <b>Gender:</b> F <b>Weight:</b> 61.2 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2012-05-03 <b>Imaging Protocol:</b> Manufacturer=Philips Medical Systems;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['MPRAGE', 'Resting_State_fMRI'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
-<li style='font-size:1.5rem;'><a href = 'sr no 449/sub-01.html'>005_S_6427</a></li>
-<hr>
-<p><b>Age:</b> 65.4 <b>Gender:</b> F <b>Weight:</b> 57.2 <b>Cohort:</b> MCI_NC</p>
-<p><b>Scan Date:</b> 2018-06-25 <b>Imaging Protocol:</b> Manufacturer=GE MEDICAL SYSTEMS;Field Strength=3.0</p>
-<p><b>Modalities present:</b> ['Accelerated_Sagittal_IR-FSPGR', 'Axial_rsfMRI__Eyes_Open_'] </p>
-<hr style="height:1px;border:none;color:#333;background-color:#333;" />
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Subject ID </th><th>Sex</th><th>Weight </th><th>Study Date </th><th>Age </th><th>Description </th><th>Device</th><th>Cohort</th></tr></thead><tbody>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject3/fmriprep/sub-03.html'>128_S_2002</a> </td><td>M </td><td>95.3</td><td>8/28/2018 </td><td>73.1</td><td>Axial fcMRI (Eyes Open) </td><td>GE MEDICAL SYSTEMS</td><td>MCI_CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject1/fmriprep/sub-01.html'>002_S_2010</a> </td><td>F </td><td>111.1</td><td>7/7/2011 </td><td>64.1</td><td>Resting State fMRI </td><td>Philips Medical Systems</td><td>MCI_CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject4/fmriprep/sub-04.html'>128_S_0205</a> </td><td>F </td><td>59</td><td>7/17/2018 </td><td>78.9</td><td>Axial MB rsfMRI (Eyes Open) </td><td>SIEMENS</td><td>MCI_CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject5/fmriprep/sub-05.html'>007_S_4488</a> </td><td>M </td><td>86.6</td><td>9/14/2018 </td><td>79.3</td><td>Axial MB rsfMRI (Eyes Open) </td><td>SIEMENS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject2/fmriprep/sub-02.html'>020_S_6504</a> </td><td>M </td><td>89.4</td><td>7/26/2018 </td><td>68.8</td><td>Axial rsfMRI (Eyes Open) </td><td>SIEMENS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject6/fmriprep/sub-06.html'>033_S_4176</a> </td><td>M </td><td>79.4</td><td>2/4/2020 </td><td>92.5</td><td>Axial rsfMRI (Eyes Open) </td><td>GE MEDICAL SYSTEMS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject7/fmriprep/sub-07.html'>037_S_0303</a> </td><td>M </td><td>57.5</td><td>5/11/2017 </td><td>95.4</td><td>Axial rsfMRI (Eyes Open) </td><td>SIEMENS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject8/fmriprep/sub-08.html'>098_S_6343</a> </td><td>M </td><td>84.8</td><td>5/9/2018 </td><td>67</td><td>Axial rsfMRI (Eyes Open) </td><td>GE MEDICAL SYSTEMS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject9/fmriprep/sub-09.html'>100_S_6349</a> </td><td>M </td><td>50</td><td>5/16/2018 </td><td>73.8</td><td>Axial fcMRI (EYES OPEN) </td><td>Philips Medical Systems</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject10/fmriprep/sub-10.html'>141_S_6240</a> </td><td>M </td><td>74.8</td><td>3/11/2018 </td><td>66.9</td><td>Axial rsfMRI (EYES OPEN) </td><td>SIEMENS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject11/fmriprep/sub-11.html'>003_S_4900</a> </td><td>F </td><td>80.7</td><td>11/8/2019 </td><td>67.1</td><td>Axial rsfMRI (Eyes Open) </td><td>SIEMENS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject12/fmriprep/sub-12.html'>009_S_4612</a> </td><td>F </td><td>59</td><td>8/5/2019 </td><td>75.8</td><td>Axial fcMRI (Eyes Open) </td><td>GE MEDICAL SYSTEMS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject13/fmriprep/sub-13.html'>016_S_4951</a> </td><td>F </td><td>63</td><td>12/2/2015 </td><td>75.2</td><td>Axial rsfMRI (Eyes Open) </td><td>GE MEDICAL SYSTEMS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject14/fmriprep/sub-14.html'>018_S_6207</a> </td><td>F </td><td>55</td><td>2/13/2018 </td><td>70.9</td><td>Axial RESTING fcMRI (EYES OPEN) </td><td>Philips Medical Systems</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject15/fmriprep/sub-15.html'>018_S_6351</a> </td><td>F </td><td>64</td><td>5/10/2018 </td><td>74.2</td><td>Axial RESTING fcMRI (EYES OPEN) </td><td>Philips Medical Systems</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject16/fmriprep/sub-16.html'>021_S_4335</a> </td><td>F </td><td>54.4</td><td>6/7/2017 </td><td>77.3</td><td>Axial rsfMRI (Eyes Open) </td><td>GE MEDICAL SYSTEMS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject17/fmriprep/sub-17.html'>022_S_6797</a> </td><td>F </td><td>54.2</td><td>8/28/2019 </td><td>67.2</td><td>Axial MB rsfMRI (Eyes Open) </td><td>SIEMENS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject18/fmriprep/sub-18.html'>129_S_6459</a> </td><td>F </td><td>63.5</td><td>6/27/2018 </td><td>66</td><td>Axial rsfMRI (Eyes Open) </td><td>GE MEDICAL SYSTEMS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject19/fmriprep/sub-19.html'>301_S_6224</a> </td><td>F </td><td>65</td><td>2/13/2018 </td><td>75.9</td><td>Axial fcMRI (EYES OPEN) </td><td>Philips Medical Systems</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject20/fmriprep/sub-20.html'>094_S_2201</a> </td><td>F </td><td>74.8</td><td>10/6/2017 </td><td>70.5</td><td>Axial rsfMRI (Eyes Open) </td><td>SIEMENS</td><td>CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject21/fmriprep/sub-01.html'>002_S_2263</a> </td><td>M </td><td>72.6</td><td>4/4/2017 </td><td>68.3</td><td>Axial rsfMRI (EYES OPEN) </td><td>SIEMENS</td><td>MCI_CN </td></tr>
+ <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep/Out_Subject22/fmriprep/sub-02.html'>031_S_2022</a> </td><td>M </td><td>98</td><td>7/14/2011 </td><td>67.1</td><td>Resting State fMRI </td><td>Philips Medical Systems</td><td>MCI_CN </td></tr>
+</tbody></table>
