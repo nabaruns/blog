@@ -3,30 +3,30 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Nabarun’s Blog | A pebble in ocean of knowledge</title>
+<title>About Me | Nabarun’s Blog</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Nabarun’s Blog" />
+<meta property="og:title" content="About Me" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A pebble in ocean of knowledge" />
 <meta property="og:description" content="A pebble in ocean of knowledge" />
-<link rel="canonical" href="https://nabaruns.github.io/blog/404.html" />
-<meta property="og:url" content="https://nabaruns.github.io/blog/404.html" />
+<link rel="canonical" href="https://nabaruns.github.io/blog/https:/nabarunsarkar.com" />
+<meta property="og:url" content="https://nabaruns.github.io/blog/https:/nabarunsarkar.com" />
 <meta property="og:site_name" content="Nabarun’s Blog" />
 <script type="application/ld+json">
-{"headline":"Nabarun’s Blog","description":"A pebble in ocean of knowledge","@type":"WebPage","url":"https://nabaruns.github.io/blog/404.html","@context":"https://schema.org"}</script>
+{"headline":"About Me","description":"A pebble in ocean of knowledge","@type":"WebPage","url":"https://nabaruns.github.io/blog/https:/nabarunsarkar.com","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://nabaruns.github.io/blog/feed.xml" title="Nabarun's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Nabarun’s Blog | A pebble in ocean of knowledge</title>
+<title>About Me | Nabarun’s Blog</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Nabarun’s Blog" />
+<meta property="og:title" content="About Me" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A pebble in ocean of knowledge" />
 <meta property="og:description" content="A pebble in ocean of knowledge" />
-<link rel="canonical" href="https://nabaruns.github.io/blog/404.html" />
-<meta property="og:url" content="https://nabaruns.github.io/blog/404.html" />
+<link rel="canonical" href="https://nabaruns.github.io/blog/https:/nabarunsarkar.com" />
+<meta property="og:url" content="https://nabaruns.github.io/blog/https:/nabarunsarkar.com" />
 <meta property="og:site_name" content="Nabarun’s Blog" />
 <script type="application/ld+json">
-{"headline":"Nabarun’s Blog","description":"A pebble in ocean of knowledge","@type":"WebPage","url":"https://nabaruns.github.io/blog/404.html","@context":"https://schema.org"}</script>
+{"headline":"About Me","description":"A pebble in ocean of knowledge","@type":"WebPage","url":"https://nabaruns.github.io/blog/https:/nabarunsarkar.com","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -78,25 +78,18 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <article class="post">
 
-<div class="container">
-  <h1>404</h1>
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <header class="post-header">
+    <h1 class="post-title">About Me</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Check me out here <strong><a href="https://nabarunsarkar.com">nabarunsarkar.com</a></strong></p>
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
