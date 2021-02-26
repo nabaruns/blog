@@ -1,4 +1,11 @@
----toc: truelayout: postdescription: FMRIprep output on BIDS format of ADNI datacategories: [neuroscience]title: FMRIprep output on BIDS format of ADNI data---<table class="tableizer-table"><thead><tr class="tableizer-firstrow"><th>Subject ID </th></tr></thead><tbody>
+---
+toc: true
+layout: post
+description: FMRIprep output on BIDS format of ADNI data
+categories: [neuroscience]
+title: FMRIprep output on BIDS format of ADNI data
+---
+<table class="tableizer-table"><thead><tr class="tableizer-firstrow"><th>Subject ID </th></tr></thead><tbody>
 <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep_TATA/sub-002NRF2.html'>sub-002NRF2</a> </td></tr>
 <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep_TATA/sub-003RSF2.html'>sub-003RSF2</a> </td></tr>
 <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep_TATA/sub-004SASF1.html'>sub-004SASF1</a> </td></tr>
