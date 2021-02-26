@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-description: FMRIprep output on BIDS format of ADNI data
+description: FMRIprep output on BIDS format of TATA rest data
 categories: [neuroscience]
-title: FMRIprep output on BIDS format of ADNI data
+title: FMRIprep output on BIDS format of TATA rest data
 ---
 <table class="tableizer-table"><thead><tr class="tableizer-firstrow"><th>Subject ID </th></tr></thead><tbody>
 <tr><td><a href = 'https://nabarunsarkar.com/img/fmriprep_TATA/sub-002NRF2.html'>sub-002NRF2</a> </td></tr>
