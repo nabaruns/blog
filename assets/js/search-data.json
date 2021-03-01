@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "FMRIprep output on BIDS format of TATA task data",
+            "content": "Subject ID . sub-003RSF1 | . sub-003RSF2 | . sub-004SASF1 | . sub-005SRF1 | . sub-005SRF2 | . sub-010MPF1 | . sub-011KHF1 | . sub-011KHF2 | . sub-012VKF1 | . sub-012VKF2 | . sub-014SM | . sub-019ST | .",
+            "url": "https://nabaruns.github.io/blog/neuroscience/2021/03/01/FMRIprep-output-on-BIDS-format-of-TATA-task-data.html",
+            "relUrl": "/neuroscience/2021/03/01/FMRIprep-output-on-BIDS-format-of-TATA-task-data.html",
+            "date": " • Mar 1, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "FMRIprep output on BIDS format of TATA rest data",
             "content": "Subject ID . sub-002NRF2 | . sub-003RSF2 | . sub-004SASF1 | . sub-005SRF2 | . sub-011KHF2 | . sub-012VKF2 | . sub-014SM | . sub-030SKF2 | . sub-032NJF1 | . sub-032NJF2 | . sub-032NJF3 | . sub-034RRF1 | . sub-040PRF1 | . sub-048CNF1 | . sub-050MGF1 | . sub-051MBF2 | . sub-053JSF1 | . sub-055VVF1 | . sub-057NCF1 | . sub-060JRF1 | . sub-064BRF1 | . sub-067RGF1 | . sub-068TPF1 | . sub-069PSF1 | . sub-070GPF1 | . sub-083MPF1 | . sub-083MPF2 | . sub-086PN | . sub-088MK | . sub-089JL | . sub-091KKF1 | . sub-091KK | . sub-094NSF1 | . sub-095MN | . sub-096RN | . sub-097PV | . sub-104GSF1 | . sub-104GS | . sub-105SSF1 | . sub-105SS | . sub-107GRF1 | . sub-107GR | . sub-108MSF1 | . sub-108MS | . sub-109AR | . sub-110RS | . sub-114SM | . sub-116SKF1 | . sub-116SK | . sub-117RKF1 | . sub-119MV | . sub-121MMF1 | . sub-121MM | . sub-122ES | . sub-131MS | . sub-133RCF1 | . sub-134SU | . sub-141VP | . sub-144BRF1 | . sub-144BR | . sub-145SRF1 | . sub-145SR | . sub-154APF1 | . sub-154AP | . sub-155CNF1 | . sub-155CN | . sub-160ASF1 | . sub-160AS | . sub-163MRF1 | . sub-163MR | . sub-165ARF1 | . sub-165AR | . sub-176GS | .",
             "url": "https://nabaruns.github.io/blog/neuroscience/2021/02/26/FMRIprep-output-on-BIDS-format-of-TATA-rest-data.html",
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "FMRIprep output on BIDS format of RADC data",
             "content": "Subject ID . sub-04981936 | . sub-08899955 | . sub-16235506 | . sub-18500390 | . sub-23825005 | . sub-24644776 | . sub-25783272 | . sub-27083391 | . sub-34453492 | . sub-40880222 | . sub-42450388 | . sub-46808242 | . sub-48213489 | . sub-49772985 | . sub-50402279 | . sub-57833358 | . sub-57833358 | . sub-59500816 | . sub-63698192 | . sub-64386439 | . sub-67227993 | . sub-69540555 | . sub-69660076 | . sub-70212461 | . sub-71806467 | . sub-72347501 | . sub-73369061 | . sub-73957787 | . sub-75161029 | . sub-75262623 | . sub-76731441 | . sub-77273914 | . sub-77689940 | . sub-78010047 | . sub-79978444 | . sub-81639479 | . sub-88961000 | . sub-91949579 | . sub-91949579 | .",
             "url": "https://nabaruns.github.io/blog/neuroscience/2021/02/26/FMRIprep-output-on-BIDS-format-of-RADC-data.html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "FMRIprep output on BIDS format of ADNI data",
             "content": "Subject ID SexWeight Study Date Age Description DeviceCohort . 128_S_2002  | M  | 95.3 | 8/28/2018  | 73.1 | Axial fcMRI (Eyes Open)  | GE MEDICAL SYSTEMS | MCI_CN  | . 002_S_2010  | F  | 111.1 | 7/7/2011  | 64.1 | Resting State fMRI  | Philips Medical Systems | MCI_CN  | . 128_S_0205  | F  | 59 | 7/17/2018  | 78.9 | Axial MB rsfMRI (Eyes Open)  | SIEMENS | MCI_CN  | . 007_S_4488  | M  | 86.6 | 9/14/2018  | 79.3 | Axial MB rsfMRI (Eyes Open)  | SIEMENS | CN  | . 020_S_6504  | M  | 89.4 | 7/26/2018  | 68.8 | Axial rsfMRI (Eyes Open)  | SIEMENS | CN  | . 033_S_4176  | M  | 79.4 | 2/4/2020  | 92.5 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 037_S_0303  | M  | 57.5 | 5/11/2017  | 95.4 | Axial rsfMRI (Eyes Open)  | SIEMENS | CN  | . 098_S_6343 | M  | 84.8 | 5/9/2018  | 67 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 100_S_6349  | M  | 50 | 5/16/2018  | 73.8 | Axial fcMRI (EYES OPEN)  | Philips Medical Systems | CN  | . 141_S_6240  | M  | 74.8 | 3/11/2018  | 66.9 | Axial rsfMRI (EYES OPEN)  | SIEMENS | CN  | . 003_S_4900  | F  | 80.7 | 11/8/2019  | 67.1 | Axial rsfMRI (Eyes Open)  | SIEMENS | CN  | . 009_S_4612  | F  | 59 | 8/5/2019  | 75.8 | Axial fcMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 016_S_4951  | F  | 63 | 12/2/2015  | 75.2 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 018_S_6207  | F  | 55 | 2/13/2018  | 70.9 | Axial RESTING fcMRI (EYES OPEN)  | Philips Medical Systems | CN  | . 018_S_6351  | F  | 64 | 5/10/2018  | 74.2 | Axial RESTING fcMRI (EYES OPEN)  | Philips Medical Systems | CN  | . 021_S_4335  | F  | 54.4 | 6/7/2017  | 77.3 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 022_S_6797  | F  | 54.2 | 8/28/2019  | 67.2 | Axial MB rsfMRI (Eyes Open)  | SIEMENS | CN  | . 129_S_6459  | F  | 63.5 | 6/27/2018  | 66 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 301_S_6224  | F  | 65 | 2/13/2018  | 75.9 | Axial fcMRI (EYES OPEN)  | Philips Medical Systems | CN  | . 094_S_2201  | F  | 74.8 | 10/6/2017  | 70.5 | Axial rsfMRI (Eyes Open)  | SIEMENS | CN  | . 002_S_2263  | M  | 72.6 | 4/4/2017  | 68.3 | Axial rsfMRI (EYES OPEN)  | SIEMENS | MCI_CN  | . 031_S_2022  | M  | 98 | 7/14/2011  | 67.1 | Resting State fMRI  | Philips Medical Systems | MCI_CN  | .",
             "url": "https://nabaruns.github.io/blog/neuroscience/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html",
@@ -34,7 +45,7 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "Covid-19 tracker android app for India with live notification",
             "content": ". Features . Overall summary . . . Time series analysis via graph plots . . . State wise numbers . . . District wise numbers . . . Download link . APK file . . Just made this app. Any suggestions or feedback will be appreciated.Check it out here: https://t.co/9ayRMRsNiO#coronavirusinindia #coronaupdatesindia pic.twitter.com/3bujxnyTWx . &mdash; Nabarun (@nbrsr) April 10, 2020",
             "url": "https://nabaruns.github.io/blog/markdown/2020/04/10/covid-19-android-app.html",
