@@ -2,17 +2,6 @@
   
     
         "post0": {
-            "title": "DMRIprep output on BIDS format of RADC data",
-            "content": "Subject ID . sub-0522566501 | .",
-            "url": "https://nabaruns.github.io/blog/neuroscience/2021/04/23/DMRIprep-output-on-BIDS-format-of-RADC-data.html",
-            "relUrl": "/neuroscience/2021/04/23/DMRIprep-output-on-BIDS-format-of-RADC-data.html",
-            "date": " • Apr 23, 2021"
-        }
-        
-    
-  
-    
-        ,"post1": {
             "title": "FMRIprep output on BIDS format of TATA task data",
             "content": "Subject ID . sub-003RSF1 | . sub-003RSF2 | . sub-004SASF1 | . sub-005SRF1 | . sub-005SRF2 | . sub-010MPF1 | . sub-011KHF1 | . sub-011KHF2 | . sub-012VKF1 | . sub-012VKF2 | . sub-014SM | . sub-019ST | .",
             "url": "https://nabaruns.github.io/blog/neuroscience/2021/03/01/FMRIprep-output-on-BIDS-format-of-TATA-task-data.html",
@@ -23,7 +12,7 @@
     
   
     
-        ,"post2": {
+        ,"post1": {
             "title": "Covid-19 tracker android app for India with live notification",
             "content": ". Features . Overall summary . . . Time series analysis via graph plots . . . State wise numbers . . . District wise numbers . . . Download link . APK file . . Just made this app. Any suggestions or feedback will be appreciated.Check it out here: https://t.co/9ayRMRsNiO#coronavirusinindia #coronaupdatesindia pic.twitter.com/3bujxnyTWx . &mdash; Nabarun Sarkar (@nbrsr) April 10, 2020",
             "url": "https://nabaruns.github.io/blog/markdown/2020/04/10/covid-19-android-app.html",
