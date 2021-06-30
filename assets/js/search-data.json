@@ -35,17 +35,6 @@
   
     
         ,"post3": {
-            "title": "FMRIprep output on BIDS format of TATA rest data",
-            "content": "Subject ID . sub-002NRF2 | . sub-003RSF2 | . sub-004SASF1 | . sub-005SRF2 | . sub-011KHF2 | . sub-012VKF2 | . sub-014SM | . sub-030SKF2 | . sub-032NJF1 | . sub-032NJF2 | . sub-032NJF3 | . sub-034RRF1 | . sub-040PRF1 | . sub-048CNF1 | . sub-050MGF1 | . sub-051MBF2 | . sub-053JSF1 | . sub-055VVF1 | . sub-057NCF1 | . sub-060JRF1 | . sub-064BRF1 | . sub-067RGF1 | . sub-068TPF1 | . sub-069PSF1 | . sub-070GPF1 | . sub-083MPF1 | . sub-083MPF2 | . sub-086PN | . sub-088MK | . sub-089JL | . sub-091KKF1 | . sub-091KK | . sub-094NSF1 | . sub-095MN | . sub-096RN | . sub-097PV | . sub-104GSF1 | . sub-104GS | . sub-105SSF1 | . sub-105SS | . sub-107GRF1 | . sub-107GR | . sub-108MSF1 | . sub-108MS | . sub-109AR | . sub-110RS | . sub-114SM | . sub-116SKF1 | . sub-116SK | . sub-117RKF1 | . sub-119MV | . sub-121MMF1 | . sub-121MM | . sub-122ES | . sub-131MS | . sub-133RCF1 | . sub-134SU | . sub-141VP | . sub-144BRF1 | . sub-144BR | . sub-145SRF1 | . sub-145SR | . sub-154APF1 | . sub-154AP | . sub-155CNF1 | . sub-155CN | . sub-160ASF1 | . sub-160AS | . sub-163MRF1 | . sub-163MR | . sub-165ARF1 | . sub-165AR | . sub-176GS | .",
-            "url": "https://nabaruns.github.io/blog/neuroscience/2021/02/26/FMRIprep-output-on-BIDS-format-of-TATA-rest-data.html",
-            "relUrl": "/neuroscience/2021/02/26/FMRIprep-output-on-BIDS-format-of-TATA-rest-data.html",
-            "date": " • Feb 26, 2021"
-        }
-        
-    
-  
-    
-        ,"post4": {
             "title": "Covid-19 tracker android app for India with live notification",
             "content": ". Features . Overall summary . . . Time series analysis via graph plots . . . State wise numbers . . . District wise numbers . . . Download link . APK file . . Just made this app. Any suggestions or feedback will be appreciated.Check it out here: https://t.co/9ayRMRsNiO#coronavirusinindia #coronaupdatesindia pic.twitter.com/3bujxnyTWx . &mdash; Nabarun Sarkar (@nbrsr) April 10, 2020",
             "url": "https://nabaruns.github.io/blog/markdown/2020/04/10/covid-19-android-app.html",
