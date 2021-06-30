@@ -57,19 +57,8 @@
   
     
         ,"post5": {
-            "title": "FMRIprep output on BIDS format of ADNI data",
-            "content": "Subject ID SexWeight Study Date Age Description DeviceCohort . 128_S_2002  | M  | 95.3 | 8/28/2018  | 73.1 | Axial fcMRI (Eyes Open)  | GE MEDICAL SYSTEMS | MCI_CN  | . 002_S_2010  | F  | 111.1 | 7/7/2011  | 64.1 | Resting State fMRI  | Philips Medical Systems | MCI_CN  | . 128_S_0205  | F  | 59 | 7/17/2018  | 78.9 | Axial MB rsfMRI (Eyes Open)  | SIEMENS | MCI_CN  | . 007_S_4488  | M  | 86.6 | 9/14/2018  | 79.3 | Axial MB rsfMRI (Eyes Open)  | SIEMENS | CN  | . 020_S_6504  | M  | 89.4 | 7/26/2018  | 68.8 | Axial rsfMRI (Eyes Open)  | SIEMENS | CN  | . 033_S_4176  | M  | 79.4 | 2/4/2020  | 92.5 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 037_S_0303  | M  | 57.5 | 5/11/2017  | 95.4 | Axial rsfMRI (Eyes Open)  | SIEMENS | CN  | . 098_S_6343 | M  | 84.8 | 5/9/2018  | 67 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 100_S_6349  | M  | 50 | 5/16/2018  | 73.8 | Axial fcMRI (EYES OPEN)  | Philips Medical Systems | CN  | . 141_S_6240  | M  | 74.8 | 3/11/2018  | 66.9 | Axial rsfMRI (EYES OPEN)  | SIEMENS | CN  | . 003_S_4900  | F  | 80.7 | 11/8/2019  | 67.1 | Axial rsfMRI (Eyes Open)  | SIEMENS | CN  | . 009_S_4612  | F  | 59 | 8/5/2019  | 75.8 | Axial fcMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 016_S_4951  | F  | 63 | 12/2/2015  | 75.2 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 018_S_6207  | F  | 55 | 2/13/2018  | 70.9 | Axial RESTING fcMRI (EYES OPEN)  | Philips Medical Systems | CN  | . 018_S_6351  | F  | 64 | 5/10/2018  | 74.2 | Axial RESTING fcMRI (EYES OPEN)  | Philips Medical Systems | CN  | . 021_S_4335  | F  | 54.4 | 6/7/2017  | 77.3 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 022_S_6797  | F  | 54.2 | 8/28/2019  | 67.2 | Axial MB rsfMRI (Eyes Open)  | SIEMENS | CN  | . 129_S_6459  | F  | 63.5 | 6/27/2018  | 66 | Axial rsfMRI (Eyes Open)  | GE MEDICAL SYSTEMS | CN  | . 301_S_6224  | F  | 65 | 2/13/2018  | 75.9 | Axial fcMRI (EYES OPEN)  | Philips Medical Systems | CN  | . 094_S_2201  | F  | 74.8 | 10/6/2017  | 70.5 | Axial rsfMRI (Eyes Open)  | SIEMENS | CN  | . 002_S_2263  | M  | 72.6 | 4/4/2017  | 68.3 | Axial rsfMRI (EYES OPEN)  | SIEMENS | MCI_CN  | . 031_S_2022  | M  | 98 | 7/14/2011  | 67.1 | Resting State fMRI  | Philips Medical Systems | MCI_CN  | .",
-            "url": "https://nabaruns.github.io/blog/neuroscience/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html",
-            "relUrl": "/neuroscience/2020/10/14/FMRIprep-output-on-BIDS-format-of-ADNI-data.html",
-            "date": " • Oct 14, 2020"
-        }
-        
-    
-  
-    
-        ,"post6": {
             "title": "Covid-19 tracker android app for India with live notification",
-            "content": ". Features . Overall summary . . . Time series analysis via graph plots . . . State wise numbers . . . District wise numbers . . . Download link . APK file . . Just made this app. Any suggestions or feedback will be appreciated.Check it out here: https://t.co/9ayRMRsNiO#coronavirusinindia #coronaupdatesindia pic.twitter.com/3bujxnyTWx . &mdash; Nabarun (@nbrsr) April 10, 2020",
+            "content": ". Features . Overall summary . . . Time series analysis via graph plots . . . State wise numbers . . . District wise numbers . . . Download link . APK file . . Just made this app. Any suggestions or feedback will be appreciated.Check it out here: https://t.co/9ayRMRsNiO#coronavirusinindia #coronaupdatesindia pic.twitter.com/3bujxnyTWx . &mdash; Nabarun Sarkar (@nbrsr) April 10, 2020",
             "url": "https://nabaruns.github.io/blog/markdown/2020/04/10/covid-19-android-app.html",
             "relUrl": "/markdown/2020/04/10/covid-19-android-app.html",
             "date": " • Apr 10, 2020"
